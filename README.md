@@ -26,8 +26,11 @@ You will need an API key from OMDb to run this project. You can obtain one for f
 ### Installation
 
 1.  Bash `git clone https://github.com/AdekeyeAdeniyi/movie-explorer-api.git`
-2.  Bashcd movie-explorer-api
-3.  JavaScriptconst API_KEY = 'your_key_here';
+2.  Bash `cd movie-explorer-api`
+3.  Configure `api-key`
+    - Copy config.example.js
+    - Rename the copy to config.js
+    - Open config.js and replace the placeholder with your actual API key:
 4.  Open index.html in your preferred web browser.
 
 ## Deployment
